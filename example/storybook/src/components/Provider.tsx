@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { config } from '@gluestack-ui/config';
+import { config } from '@custom-ui/config';
 import { StyledProvider } from '@custom-ui/themed';
 import { createProvider } from '@custom-ui/themed';
 

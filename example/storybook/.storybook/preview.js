@@ -1,6 +1,6 @@
 import { addParameters } from '@storybook/client-api';
 import { DocsContainer } from '@storybook/addon-docs/blocks';
-import { config } from '@gluestack-ui/config';
+import { config } from '@custom-ui/config';
 import { Center, GluestackUIProvider } from '@custom-ui/themed';
 
 import { useState } from 'react';

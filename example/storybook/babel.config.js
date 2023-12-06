@@ -1,5 +1,4 @@
 const path = require('path');
-console.log('herher');
 module.exports = function (api) {
   api.cache(true);
   return {
@@ -14,22 +13,10 @@ module.exports = function (api) {
                   __dirname,
                   '../../packages/themed/src'
                 ),
-                '@gluestack-ui/config': path.join(
+                '@custom-ui/config': path.join(
                   __dirname,
                   '../../packages/config/src/gluestack-ui.config'
                 ),
-                // '@gluestack-style/react': path.join(
-                //   __dirname,
-                //   '../../../dank-style/packages/react/src'
-                // ),
-                // '@gluestack-style/animation-resolver': path.join(
-                //   __dirname,
-                //   '../../../dank-style/packages/animation-resolver/src'
-                // ),
-                // '@gluestack-style/legend-motion-animation-driver': path.join(
-                //   __dirname,
-                //   '../../../dank-style/packages/animation-legend-motion-driver/src'
-                // ),
               },
             },
           ]
