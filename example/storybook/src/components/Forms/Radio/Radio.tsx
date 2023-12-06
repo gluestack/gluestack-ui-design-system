@@ -14,7 +14,7 @@ import {
   Text,
   FormControl,
   CircleIcon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const RadioBasic = ({ ...props }: any) => {
   const [values, setValues] = React.useState('Label 1');

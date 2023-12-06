@@ -7,7 +7,7 @@ import {
   AccordionContentText,
   AccordionTitleText,
   AccordionIcon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 import { ChevronDownIcon } from 'lucide-react-native';
 import { ChevronUpIcon } from 'lucide-react-native';
 import React from 'react';

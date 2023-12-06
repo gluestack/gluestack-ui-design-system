@@ -4,7 +4,7 @@ import {
   AvatarBadge,
   AvatarFallbackText,
   AvatarImage,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 import React from 'react';
 
 const AvatarSizes = () => {

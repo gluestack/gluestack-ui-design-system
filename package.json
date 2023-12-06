@@ -3,8 +3,7 @@
   "workspaces": [
     "packages/themed",
     "packages/config",
-    "example/storybook",
-    "example/apps/*"
+    "example/storybook"
   ],
   "scripts": {
     "dev": "turbo run dev",

@@ -16,7 +16,7 @@ import {
   SelectSectionHeaderText,
   SelectTrigger,
   Icon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const SelectWithSectionList = ({ isDisabled, isInvalid, ...props }: any) => {
   const DATA = [

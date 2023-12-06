@@ -1,5 +1,5 @@
 import React from 'react';
-import { Center, Pressable, Text } from '@gluestack-ui/custom-design-system';
+import { Center, Pressable, Text } from '@custom-ui/themed';
 
 const PressableBasic = ({ ...props }: any) => {
   return (

@@ -11,7 +11,7 @@ import {
   ActionsheetSectionList,
   ActionsheetSectionHeaderText,
   Button,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const ActionsheetWithSectionlist = ({
   showActionsheet: showActionsheetProp = true,

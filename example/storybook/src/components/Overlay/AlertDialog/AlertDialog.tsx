@@ -19,7 +19,7 @@ import {
   AlertCircleIcon,
   CheckCircleIcon,
   HStack,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 import { AlertTriangleIcon } from 'lucide-react-native';
 

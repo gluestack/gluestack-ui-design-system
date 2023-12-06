@@ -1,10 +1,7 @@
 import { addParameters } from '@storybook/client-api';
 import { DocsContainer } from '@storybook/addon-docs/blocks';
 import { config } from '@gluestack-ui/config';
-import {
-  Center,
-  GluestackUIProvider,
-} from '@gluestack-ui/custom-design-system';
+import { Center, GluestackUIProvider } from '@custom-ui/themed';
 
 import { useState } from 'react';
 export const parameters = {

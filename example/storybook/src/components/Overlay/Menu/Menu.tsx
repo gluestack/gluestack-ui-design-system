@@ -15,7 +15,7 @@ import {
   SettingsIcon,
   AddIcon,
   Center,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 import { PaintBucket, PuzzleIcon } from 'lucide-react-native';
 
 const MenuBasic = ({ placement = 'bottom' }: any) => {

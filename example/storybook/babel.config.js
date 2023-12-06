@@ -10,7 +10,7 @@ module.exports = function (api) {
             'module-resolver',
             {
               alias: {
-                '@gluestack-ui/custom-design-system': path.join(
+                '@custom-ui/themed': path.join(
                   __dirname,
                   '../../packages/themed/src'
                 ),

@@ -8,7 +8,7 @@ import {
   Icon,
   EditIcon,
   Pressable,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const LinearGradientStory = ({ ...props }: any) => {
   return (

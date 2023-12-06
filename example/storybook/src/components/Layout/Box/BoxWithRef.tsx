@@ -1,4 +1,4 @@
-import { Box } from '@gluestack-ui/custom-design-system';
+import { Box } from '@custom-ui/themed';
 import React from 'react';
 
 const BoxWithRef = ({ ...props }: any) => {

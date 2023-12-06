@@ -30,7 +30,7 @@ import {
   Image,
   Text,
   Center,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 import { config } from '@gluestack-ui/config';
 
 const ActionsheetBasic = ({ showActionsheetProp, ...props }: any) => {

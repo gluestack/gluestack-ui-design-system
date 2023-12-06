@@ -22,7 +22,7 @@ import {
   InputField,
   ArrowLeftIcon,
   Link,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const ModalBasic = ({ showModal: showModalProp = true, ...props }) => {
   const [showModal, setShowModal] = React.useState(false);

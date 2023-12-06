@@ -1,4 +1,4 @@
-import { Text, Center } from '@gluestack-ui/custom-design-system';
+import { Text, Center } from '@custom-ui/themed';
 import React from 'react';
 
 const CenterBasic = () => {

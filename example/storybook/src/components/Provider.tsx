@@ -1,8 +1,8 @@
 import React from 'react';
 
 import { config } from '@gluestack-ui/config';
-import { StyledProvider } from '@gluestack-ui/custom-design-system';
-import { createProvider } from '@gluestack-ui/custom-design-system';
+import { StyledProvider } from '@custom-ui/themed';
+import { createProvider } from '@custom-ui/themed';
 
 import { Box } from './Layout/Box/Box';
 import { Center } from './Layout/Center/Center';

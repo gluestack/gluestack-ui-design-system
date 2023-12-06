@@ -1,12 +1,7 @@
 import React from 'react';
-import { BellIcon, Center } from '@gluestack-ui/custom-design-system';
+import { BellIcon, Center } from '@custom-ui/themed';
 
-import {
-  Alert,
-  AlertIcon,
-  AlertText,
-  InfoIcon,
-} from '@gluestack-ui/custom-design-system';
+import { Alert, AlertIcon, AlertText, InfoIcon } from '@custom-ui/themed';
 import {
   AlertCircleIcon,
   CheckCircle2Icon,

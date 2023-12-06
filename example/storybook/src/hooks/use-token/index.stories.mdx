@@ -15,17 +15,17 @@ import { Canvas, Meta, Story } from '@storybook/addon-docs';
 
 ### Import
 
-To use the `useToken` in your project, import `useToken`from`@gluestack-ui/custom-design-system` as demonstrated below.
+To use the `useToken` in your project, import `useToken`from`@custom-ui/themed` as demonstrated below.
 
 ```jsx
-import { useToken } from '@gluestack-ui/custom-design-system';
+import { useToken } from '@custom-ui/themed';
 ```
 
 Let's use our `useToken` value to give background color to `View` from `react-native`.
 
 ```jsx
 import { View } from 'react-native';
-import { useToken } from '@gluestack-ui/custom-design-system';
+import { useToken } from '@custom-ui/themed';
 
 function Example() {
   const resolvedGreen = useToken('colors', 'green500');

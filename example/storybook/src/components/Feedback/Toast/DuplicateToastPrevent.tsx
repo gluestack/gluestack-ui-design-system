@@ -5,7 +5,7 @@ import {
   Toast,
   ToastTitle,
   useToast,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const ToastDuplicatePrevent = ({ placement = 'top', ...props }: any) => {
   const toast = useToast();

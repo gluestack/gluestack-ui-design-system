@@ -58,7 +58,7 @@ import {
   TrashIcon,
   UnlockIcon,
   createIcon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 import { ChromeIcon, InstagramIcon, FacebookIcon } from 'lucide-react-native';
 
@@ -134,4 +134,4 @@ export {
   createIcon,
 };
 
-export { VStack, HStack } from '@gluestack-ui/custom-design-system';
+export { VStack, HStack } from '@custom-ui/themed';

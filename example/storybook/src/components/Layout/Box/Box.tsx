@@ -1,4 +1,4 @@
-import { Text, Box } from '@gluestack-ui/custom-design-system';
+import { Text, Box } from '@custom-ui/themed';
 import React from 'react';
 
 const BoxBasic: any = ({

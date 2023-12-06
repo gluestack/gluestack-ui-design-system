@@ -23,7 +23,7 @@ import {
   AvatarFallbackText,
   CircleIcon,
   AddIcon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 import { PhoneIcon, Clock3Icon, MailIcon } from 'lucide-react-native';
 

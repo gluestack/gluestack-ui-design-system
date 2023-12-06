@@ -15,7 +15,7 @@ import {
   VStack,
   HStack,
   Icon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 import { Edit, Command } from 'lucide-react-native';
 
 const TooltipBasic = ({

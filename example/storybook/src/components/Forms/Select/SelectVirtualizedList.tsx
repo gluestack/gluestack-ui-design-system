@@ -15,7 +15,7 @@ import {
   SelectTrigger,
   SelectVirtualizedList,
   Icon,
-} from '@gluestack-ui/custom-design-system';
+} from '@custom-ui/themed';
 
 const SelectWithVirtualizedList = ({
   isDisabled,
