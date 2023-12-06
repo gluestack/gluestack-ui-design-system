@@ -5,7 +5,7 @@ import {
   ButtonIcon,
   VStack,
   AddIcon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const ButtonAllSizes = ({}) => {
   const sizes = ['xs', 'sm', 'md', 'lg', 'xl'];

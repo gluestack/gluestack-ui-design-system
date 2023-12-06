@@ -1,6 +1,10 @@
 import React from 'react';
-import { AddIcon, InfoIcon, HStack } from '@gluestack-ui/themed';
-import { Button, ButtonIcon, ButtonText } from '@gluestack-ui/themed';
+import { AddIcon, InfoIcon, HStack } from '@gluestack-ui/custom-design-system';
+import {
+  Button,
+  ButtonIcon,
+  ButtonText,
+} from '@gluestack-ui/custom-design-system';
 
 const ButtonWithIcons = ({}) => {
   return (

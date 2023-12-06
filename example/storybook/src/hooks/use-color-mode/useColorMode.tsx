@@ -1,5 +1,5 @@
 import { View, Text } from 'react-native';
-import { useColorMode } from '@gluestack-ui/themed';
+import { useColorMode } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 export default function Example({}: any) {

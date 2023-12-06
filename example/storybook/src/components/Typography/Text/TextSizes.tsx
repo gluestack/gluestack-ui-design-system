@@ -1,6 +1,6 @@
 import React from 'react';
 
-import { Center, Text } from '@gluestack-ui/themed';
+import { Center, Text } from '@gluestack-ui/custom-design-system';
 
 const TextSizes = () => {
   const sizes = [

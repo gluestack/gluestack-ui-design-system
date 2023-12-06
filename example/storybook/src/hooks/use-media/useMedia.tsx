@@ -1,5 +1,5 @@
 import React from 'react';
-import { styled, useMedia } from '@gluestack-ui/themed';
+import { styled, useMedia } from '@gluestack-ui/custom-design-system';
 import { View, Text } from 'react-native';
 
 const StyledBox = styled(View, {

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Center, Heading } from '@gluestack-ui/themed';
+import { Center, Heading } from '@gluestack-ui/custom-design-system';
 
 const HeadingBasic = ({ text = "I'm the heading", ...props }) => {
   return <Heading {...props}>{text}</Heading>;

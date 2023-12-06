@@ -8,7 +8,7 @@ import {
   TabsTabPanel,
   Text,
   Center,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const TabsBasic = () => {
   return (

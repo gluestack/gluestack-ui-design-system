@@ -12,49 +12,20 @@ import {
   CheckIcon,
   Pressable,
   Center,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import { MessageCircle, AlertTriangleIcon } from 'lucide-react-native';
 
-const ToastFigmaStory = ({ _placement = 'top', colorMode, ...props }: any) => {
+const ToastFigmaStory = ({ _placement = 'top', ...props }: any) => {
   return (
     <Toast {...props} maxWidth={500}>
       <VStack space="xs" flex={1}>
-        <ToastTitle
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'md',
-            }),
-          }}
-        >
-          Hello World Toast
-        </ToastTitle>
-        <ToastDescription
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'sm',
-            }),
-          }}
-        >
+        <ToastTitle>Hello World Toast</ToastTitle>
+        <ToastDescription>
           Please create a support ticket from the support page
         </ToastDescription>
       </VStack>
       <Pressable>
-        <Icon
-          as={CloseIcon}
-          dataSet={{
-            'component-props': JSON.stringify({
-              'instance': true,
-              'instance-name': 'Icon',
-              'as': 'CloseIcon',
-              'size': 'md',
-              'colorMode': colorMode,
-            }),
-          }}
-        />
+        <Icon as={CloseIcon} />
       </Pressable>
     </Toast>
   );

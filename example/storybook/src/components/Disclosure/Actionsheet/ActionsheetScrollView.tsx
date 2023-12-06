@@ -10,7 +10,7 @@ import {
   ActionsheetItemText,
   ActionsheetScrollView,
   Button,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import { useEffect } from 'react';
 
 const ActionsheetWithScrollView = ({
@@ -42,17 +42,7 @@ const ActionsheetWithScrollView = ({
   const renderItem = useCallback(
     (item: any) => (
       <ActionsheetItem onPress={handleClose} key={item}>
-        <ActionsheetItemText
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'md',
-            }),
-          }}
-        >
-          {item}
-        </ActionsheetItemText>
+        <ActionsheetItemText>{item}</ActionsheetItemText>
       </ActionsheetItem>
     ),
     [handleClose]

@@ -1,5 +1,5 @@
-import { HStack } from '@gluestack-ui/themed';
-import { Box } from '@gluestack-ui/themed';
+import { HStack } from '@gluestack-ui/custom-design-system';
+import { Box } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 const HStackReversed = ({ space, ...props }: any) => {

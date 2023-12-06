@@ -22,7 +22,7 @@ import {
   InputField,
   ArrowLeftIcon,
   Link,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const ModalBasic = ({ showModal: showModalProp = true, ...props }) => {
   const [showModal, setShowModal] = React.useState(false);
@@ -95,7 +95,7 @@ const ModalBasic = ({ showModal: showModalProp = true, ...props }) => {
   );
 };
 
-const FigmaModalStory = ({ _showModal, colorMode, ...props }: any) => {
+const FigmaModalStory = ({ _showModal, ...props }: any) => {
   return (
     <Modal
       isOpen={true}
@@ -112,81 +112,23 @@ const FigmaModalStory = ({ _showModal, colorMode, ...props }: any) => {
     >
       <ModalContent>
         <ModalHeader>
-          <Heading
-            maxWidth="80%"
-            dataSet={{
-              'component-props': JSON.stringify({
-                'is-text-style': true,
-                'component-name': 'Heading',
-                'size': 'lg',
-              }),
-            }}
-          >
-            Engage with Modals
-          </Heading>
+          <Heading maxWidth="80%">Engage with Modals</Heading>
           <ModalCloseButton>
-            <Icon
-              as={CloseIcon}
-              dataSet={{
-                'component-props': JSON.stringify({
-                  'instance': true,
-                  'instance-name': 'Icon',
-                  'as': 'CloseIcon',
-                  'size': 'md',
-                  'colorMode': colorMode,
-                }),
-              }}
-            />
+            <Icon as={CloseIcon} />
           </ModalCloseButton>
         </ModalHeader>
         <ModalBody>
-          <Text
-            size="sm"
-            dataSet={{
-              'component-props': JSON.stringify({
-                'is-text-style': true,
-                'component-name': 'Text',
-                'size': 'sm',
-              }),
-            }}
-          >
+          <Text size="sm">
             Elevate user interactions with our versatile modals. Seamlessly
             integrate notifications, forms, and media displays. Make an impact
             effortlessly.
           </Text>
         </ModalBody>
         <ModalFooter gap="$3">
-          <Button
-            variant="outline"
-            size="sm"
-            action="secondary"
-            dataSet={{
-              'component-props': JSON.stringify({
-                'instance': true,
-                'instance-name': 'Button-outline',
-                'size': 'sm',
-                'action': 'secondary',
-                'state': 'default',
-                'colorMode': colorMode,
-              }),
-            }}
-          >
+          <Button variant="outline" size="sm" action="secondary">
             <ButtonText>Cancel</ButtonText>
           </Button>
-          <Button
-            size="sm"
-            action="positive"
-            dataSet={{
-              'component-props': JSON.stringify({
-                'instance': true,
-                'instance-name': 'Button-solid',
-                'size': 'sm',
-                'action': 'positive',
-                'state': 'default',
-                'colorMode': colorMode,
-              }),
-            }}
-          >
+          <Button size="sm" action="positive">
             <ButtonText>Explore</ButtonText>
           </Button>
         </ModalFooter>

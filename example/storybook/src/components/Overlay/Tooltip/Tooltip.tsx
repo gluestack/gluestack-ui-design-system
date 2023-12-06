@@ -15,7 +15,7 @@ import {
   VStack,
   HStack,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import { Edit, Command } from 'lucide-react-native';
 
 const TooltipBasic = ({
@@ -70,17 +70,7 @@ const FigmaTooltipStory = ({
       }}
     >
       <TooltipContent>
-        <TooltipText
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'md',
-            }),
-          }}
-        >
-          Hello world!
-        </TooltipText>
+        <TooltipText>Hello world!</TooltipText>
       </TooltipContent>
     </Tooltip>
   );

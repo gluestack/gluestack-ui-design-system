@@ -1,6 +1,11 @@
 import React from 'react';
 
-import { Spinner, HStack, Text, VStack } from '@gluestack-ui/themed';
+import {
+  Spinner,
+  HStack,
+  Text,
+  VStack,
+} from '@gluestack-ui/custom-design-system';
 
 const SpinnerBasic = ({ ...props }) => <Spinner {...props} />;
 

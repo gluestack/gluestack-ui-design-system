@@ -1,6 +1,6 @@
 import React from 'react';
 import { config } from './config';
-import { StyledProvider } from '@gluestack-ui/themed';
+import { StyledProvider } from '@gluestack-ui/custom-design-system';
 import { createProvider } from '@gluestack-ui/provider';
 import { Box } from './Layout/Box/Box';
 

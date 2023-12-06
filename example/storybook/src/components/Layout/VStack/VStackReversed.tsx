@@ -1,7 +1,7 @@
 import React from 'react';
-import { Box } from '@gluestack-ui/themed';
+import { Box } from '@gluestack-ui/custom-design-system';
 
-import { VStack } from '@gluestack-ui/themed';
+import { VStack } from '@gluestack-ui/custom-design-system';
 
 const VStackReversed = ({ space, ...props }) => {
   return (

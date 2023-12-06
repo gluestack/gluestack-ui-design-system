@@ -15,7 +15,7 @@ import {
   RemoveIcon,
   Box,
   FormControl,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const CheckboxGroupBasic = ({ ...props }: any) => {
   const [values, setValues] = React.useState(['Label 1']);
@@ -67,42 +67,13 @@ const CheckboxGroupBasic = ({ ...props }: any) => {
   );
 };
 
-const FigmaCheckboxStory = ({ colorMode, ...props }: any) => {
-  const iconSize: any = {
-    sm: '2xs',
-    md: 'sm',
-    lg: 'md',
-  };
-
+const FigmaCheckboxStory = ({ ...props }: any) => {
   return (
     <Checkbox {...props} nativeID="checkbox-1" gap="$2">
       <CheckboxIndicator>
-        <CheckboxIcon
-          as={CheckIcon}
-          // @ts-ignore
-          dataSet={{
-            'component-props': JSON.stringify({
-              'instance': true,
-              'instance-name': 'Icon',
-              'as': 'CheckIcon',
-              'size': iconSize[props.size],
-              'colorMode': colorMode,
-            }),
-          }}
-        />
+        <CheckboxIcon as={CheckIcon} />
       </CheckboxIndicator>
-      <CheckboxLabel
-        // @ts-ignore
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': props.size,
-          }),
-        }}
-      >
-        Label
-      </CheckboxLabel>
+      <CheckboxLabel>Label</CheckboxLabel>
     </Checkbox>
   );
 };

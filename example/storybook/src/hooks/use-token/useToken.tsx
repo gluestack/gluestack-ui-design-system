@@ -1,5 +1,5 @@
 import { View } from 'react-native';
-import { useToken } from '@gluestack-ui/themed';
+import { useToken } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 export default function Example({ scale, token }: any) {

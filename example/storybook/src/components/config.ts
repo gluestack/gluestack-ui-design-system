@@ -1,6 +1,9 @@
 // gluestack-ui.config.ts
 import { LinearGradient } from 'expo-linear-gradient';
-import { createComponents, createConfig } from '@gluestack-ui/themed';
+import {
+  createComponents,
+  createConfig,
+} from '@gluestack-ui/custom-design-system';
 import { config as defaultConfig } from '@gluestack-ui/config';
 export const config = createConfig({
   ...defaultConfig,
@@ -21,6 +24,6 @@ export const config = createConfig({
 type ConfigType = typeof config;
 
 // Extend the internal ui config
-declare module '@gluestack-ui/themed' {
+declare module '@gluestack-ui/custom-design-system' {
   interface UIConfig extends ConfigType {}
 }

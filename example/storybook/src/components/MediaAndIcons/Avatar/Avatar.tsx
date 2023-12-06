@@ -11,17 +11,8 @@ import {
   Icon,
   Heading,
   Text,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import { User } from 'lucide-react-native';
-
-const TextSizeMap: any = {
-  'xs': '2xs',
-  'sm': 'xs',
-  'md': 'md',
-  'lg': 'xl',
-  'xl': '3xl',
-  '2xl': '5xl',
-};
 
 const AvatarBasic = ({
   size = 'md',
@@ -32,17 +23,7 @@ const AvatarBasic = ({
 }: any) => {
   return (
     <Avatar size={size} {...props}>
-      <AvatarFallbackText
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': TextSizeMap[size],
-          }),
-        }}
-      >
-        {fallbackText}
-      </AvatarFallbackText>
+      <AvatarFallbackText>{fallbackText}</AvatarFallbackText>
       <AvatarImage
         source={{
           uri: uri,

@@ -1,4 +1,4 @@
-import { Box, Center } from '@gluestack-ui/themed';
+import { Box, Center } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 import {
@@ -18,24 +18,14 @@ import {
   ThreeDotsIcon,
   Input,
   InputField,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 import { EditIcon, ArrowLeftIcon } from 'lucide-react-native';
 
 const ButtonBasic = ({ ...props }: any) => {
   return (
     <Button {...props}>
-      <ButtonText
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': props.size,
-          }),
-        }}
-      >
-        Button
-      </ButtonText>
+      <ButtonText>Button</ButtonText>
     </Button>
   );
 };

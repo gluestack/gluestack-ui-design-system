@@ -57,41 +57,15 @@ import {
   CheckIcon,
   AlertCircleIcon,
   ChevronDownIcon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
-const FormControlBasic = ({ colorMode, ...props }) => {
-  let inputState = 'default';
-  if (props.isInvalid) {
-    inputState = 'isInvalid';
-  } else if (props.isDisabled) {
-    inputState = 'isDisabled';
-  }
+const FormControlBasic = ({ ...props }) => {
   return (
     <FormControl {...props}>
       <FormControlLabel>
-        <FormControlLabelText
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text-medium',
-              'size': 'md',
-            }),
-          }}
-        >
-          Password
-        </FormControlLabelText>
+        <FormControlLabelText>Password</FormControlLabelText>
       </FormControlLabel>
-      <Input
-        dataSet={{
-          'component-props': JSON.stringify({
-            'instance': true,
-            'instance-name': 'Input-outline',
-            'size': 'md',
-            'state': inputState,
-            'colorMode': colorMode,
-          }),
-        }}
-      >
+      <Input>
         <InputField
           type="password"
           defaultValue="12345"
@@ -100,41 +74,14 @@ const FormControlBasic = ({ colorMode, ...props }) => {
       </Input>
 
       <FormControlHelper>
-        <FormControlHelperText
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'xs',
-            }),
-          }}
-        >
+        <FormControlHelperText>
           Must be atleast 6 characters.
         </FormControlHelperText>
       </FormControlHelper>
 
       <FormControlError>
-        <FormControlErrorIcon
-          as={AlertCircleIcon}
-          dataSet={{
-            'component-props': JSON.stringify({
-              'instance': true,
-              'instance-name': 'Icon',
-              'as': 'AlertCircleIcon',
-              'size': 'sm',
-              'colorMode': colorMode,
-            }),
-          }}
-        />
-        <FormControlErrorText
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': 'md',
-            }),
-          }}
-        >
+        <FormControlErrorIcon as={AlertCircleIcon} />
+        <FormControlErrorText>
           Atleast 6 characters are required.
         </FormControlErrorText>
       </FormControlError>

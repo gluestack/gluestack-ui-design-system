@@ -14,7 +14,7 @@ import {
   Text,
   FormControl,
   CircleIcon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const RadioBasic = ({ ...props }: any) => {
   const [values, setValues] = React.useState('Label 1');
@@ -31,17 +31,7 @@ const RadioBasic = ({ ...props }: any) => {
         <RadioIndicator>
           <RadioIcon as={CircleIcon} />
         </RadioIndicator>
-        <RadioLabel
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': props.size,
-            }),
-          }}
-        >
-          Label 1
-        </RadioLabel>
+        <RadioLabel>Label 1</RadioLabel>
       </Radio>
       <Radio
         {...props}
@@ -53,17 +43,7 @@ const RadioBasic = ({ ...props }: any) => {
         <RadioIndicator>
           <RadioIcon as={CircleIcon} />
         </RadioIndicator>
-        <RadioLabel
-          dataSet={{
-            'component-props': JSON.stringify({
-              'is-text-style': true,
-              'component-name': 'Text',
-              'size': props.size,
-            }),
-          }}
-        >
-          Label 2
-        </RadioLabel>
+        <RadioLabel>Label 2</RadioLabel>
       </Radio>
     </RadioGroup>
   );

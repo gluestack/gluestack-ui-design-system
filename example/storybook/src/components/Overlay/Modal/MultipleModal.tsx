@@ -17,7 +17,7 @@ import {
   VStack,
   HStack,
   Heading,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const MultipleModals = ({ ...props }: any) => {
   const [showModal, setShowModal] = React.useState(false);

@@ -1,5 +1,5 @@
-import { Image } from '@gluestack-ui/themed';
-import { VStack } from '@gluestack-ui/themed';
+import { Image } from '@gluestack-ui/custom-design-system';
+import { VStack } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 const ImageSizes = ({

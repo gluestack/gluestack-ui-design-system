@@ -9,7 +9,7 @@ import {
   Heading,
   Button,
   ButtonText,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const DividerBasic = ({ ...props }) => {
   return (
@@ -19,31 +19,11 @@ const DividerBasic = ({ ...props }) => {
       alignItems="center"
       justifyContent="center"
     >
-      <Heading
-        size="sm"
-        fontWeight="$semibold"
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Heading',
-            'size': 'sm',
-          }),
-        }}
-      >
+      <Heading size="sm" fontWeight="$semibold">
         Firefox
       </Heading>
       <Divider {...props} m="$3" />
-      <Heading
-        size="sm"
-        fontWeight="$semibold"
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Heading',
-            'size': 'sm',
-          }),
-        }}
-      >
+      <Heading size="sm" fontWeight="$semibold">
         Chrome
       </Heading>
     </HStack>

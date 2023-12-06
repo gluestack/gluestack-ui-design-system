@@ -15,7 +15,7 @@ import {
   SelectFlatList,
   SelectTrigger,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const SelectWithFlatList = ({ isDisabled, isInvalid, ...props }: any) => {
   const DATA = [

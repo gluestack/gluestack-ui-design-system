@@ -60,7 +60,7 @@ import {
   ThreeDotsIcon,
   PlayIcon,
   createIcon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 import { ChromeIcon, InstagramIcon, FacebookIcon } from 'lucide-react-native';
 import { Path, Rect, Defs, Stop, LinearGradient } from 'react-native-svg';

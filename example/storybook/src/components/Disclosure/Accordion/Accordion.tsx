@@ -7,8 +7,8 @@ import {
   AccordionIcon,
   AccordionContent,
   AccordionContentText,
-} from '@gluestack-ui/themed';
-import { Divider } from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
+import { Divider } from '@gluestack-ui/custom-design-system';
 import { ChevronDownIcon } from 'lucide-react-native';
 import { ChevronUpIcon } from 'lucide-react-native';
 import { MinusIcon, PlusIcon } from 'lucide-react-native';

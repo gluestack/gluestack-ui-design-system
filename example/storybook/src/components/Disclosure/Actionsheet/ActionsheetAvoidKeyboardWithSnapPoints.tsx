@@ -21,11 +21,11 @@ import {
   Text,
   Box,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import { KeyboardAvoidingView } from 'react-native';
 import { createIcon } from '@gluestack-ui/icon';
 import { Svg, Path } from 'react-native-svg';
-import { styled, AsForwarder } from '@gluestack-ui/themed';
+import { styled, AsForwarder } from '@gluestack-ui/custom-design-system';
 
 const IconRoot: any = styled(
   AsForwarder,
@@ -119,25 +119,11 @@ const ActionsheetWithKeyboardAvoidingViewWithSnapPoints = ({
                 <Text
                   fontWeight="$bold"
                   // @ts-ignore
-                  dataSet={{
-                    'component-props': JSON.stringify({
-                      'is-text-style': true,
-                      'component-name': 'Text',
-                      'size': 'md',
-                    }),
-                  }}
                 >
                   Mastercard
                 </Text>
                 <Text
-                  // @ts-ignore
-                  dataSet={{
-                    'component-props': JSON.stringify({
-                      'is-text-style': true,
-                      'component-name': 'Text',
-                      'size': 'md',
-                    }),
-                  }}
+                // @ts-ignore
                 >
                   Card ending in 2345
                 </Text>
@@ -145,16 +131,7 @@ const ActionsheetWithKeyboardAvoidingViewWithSnapPoints = ({
             </HStack>
             <FormControl mt={36}>
               <FormControlLabel>
-                <FormControlLabelText
-                  // @ts-ignore
-                  dataSet={{
-                    'component-props': JSON.stringify({
-                      'is-text-style': true,
-                      'component-name': 'Text',
-                      'size': 'md',
-                    }),
-                  }}
-                >
+                <FormControlLabelText>
                   Confirm security code
                 </FormControlLabelText>
               </FormControlLabel>
@@ -165,18 +142,7 @@ const ActionsheetWithKeyboardAvoidingViewWithSnapPoints = ({
                 <InputField placeholder="CVC/CVV" />
               </Input>
               <Button onPress={handleClose} mt={20}>
-                <ButtonText
-                  // @ts-ignore
-                  dataSet={{
-                    'component-props': JSON.stringify({
-                      'is-text-style': true,
-                      'component-name': 'Text',
-                      'size': 'md',
-                    }),
-                  }}
-                >
-                  Pay $1000
-                </ButtonText>
+                <ButtonText>Pay $1000</ButtonText>
               </Button>
             </FormControl>
           </VStack>

@@ -14,30 +14,9 @@ import {
   SelectDragIndicator,
   SelectItem,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
-const SelectBasic = ({
-  size = 'md',
-  variant = 'outline',
-  colorMode,
-  ...props
-}: any) => {
-  let selectIconSize = '';
-  switch (size) {
-    case 'sm':
-      selectIconSize = 'xs';
-      break;
-    case 'md':
-      selectIconSize = 'sm';
-      break;
-    case 'lg':
-      selectIconSize = 'lg';
-      break;
-    case 'xl':
-      selectIconSize = 'xl';
-      break;
-  }
-
+const SelectBasic = ({ size = 'md', variant = 'outline', ...props }: any) => {
   return (
     <Select {...props}>
       <SelectTrigger size={size} variant={variant}>
@@ -46,15 +25,6 @@ const SelectBasic = ({
           pr={variant === 'underlined' ? 0 : '$3'}
           pl={variant === 'underlined' ? '$3' : 0}
           as={ChevronDownIcon}
-          dataSet={{
-            'component-props': JSON.stringify({
-              'instance': true,
-              'instance-name': 'Icon',
-              'as': 'ChevronDownIcon',
-              'size': selectIconSize,
-              'colorMode': colorMode,
-            }),
-          }}
         />
       </SelectTrigger>
       <SelectPortal>

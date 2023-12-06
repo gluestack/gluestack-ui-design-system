@@ -15,7 +15,7 @@ import {
   SelectScrollView,
   SelectTrigger,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
 const SelectWithScrollView = ({ isDisabled, isInvalid, ...props }: any) => {
   // variables

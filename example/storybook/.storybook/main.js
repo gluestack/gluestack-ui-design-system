@@ -42,7 +42,7 @@ module.exports = {
 
     config.resolve.alias = {
       ...config.resolve.alias,
-      '@gluestack-ui/themed': path.join(
+      '@gluestack-ui/custom-design-system': path.join(
         __dirname,
         '../../../packages/themed/src'
       ),

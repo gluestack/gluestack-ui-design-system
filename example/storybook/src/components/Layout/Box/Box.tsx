@@ -1,4 +1,4 @@
-import { Text, Box } from '@gluestack-ui/themed';
+import { Text, Box } from '@gluestack-ui/custom-design-system';
 import React from 'react';
 
 const BoxBasic: any = ({
@@ -16,17 +16,7 @@ const BoxBasic: any = ({
       justifyContent="center"
       alignItems="center"
     >
-      <Text
-        color="white"
-        fontWeight="$bold"
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': 'md',
-          }),
-        }}
-      >
+      <Text color="white" fontWeight="$bold">
         BOX
       </Text>
     </Box>

@@ -25,7 +25,7 @@ import {
   MenuItem,
   MenuItemLabel,
   GlobeIcon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 import {
   PaintBucket,
   PuzzleIcon,
@@ -33,44 +33,11 @@ import {
   BadgePlusIcon,
 } from 'lucide-react-native';
 
-const BadgeBasic = ({ text = 'NEW FEATURE', colorMode, ...props }: any) => {
-  let badgeIconAndTextSize = '';
-  switch (props.size) {
-    case 'sm':
-      badgeIconAndTextSize = '2xs';
-      break;
-    case 'md':
-      badgeIconAndTextSize = 'xs';
-      break;
-    case 'lg':
-      badgeIconAndTextSize = 'sm';
-      break;
-  }
+const BadgeBasic = ({ text = 'NEW FEATURE', ...props }: any) => {
   return (
     <Badge {...props} gap="$1">
-      <BadgeText
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': badgeIconAndTextSize,
-          }),
-        }}
-      >
-        {text}
-      </BadgeText>
-      <BadgeIcon
-        as={GlobeIcon}
-        dataSet={{
-          'component-props': JSON.stringify({
-            'instance': true,
-            'instance-name': 'Icon',
-            'as': 'GlobeIcon',
-            'size': badgeIconAndTextSize,
-            'colorMode': colorMode,
-          }),
-        }}
-      />
+      <BadgeText>{text}</BadgeText>
+      <BadgeIcon as={GlobeIcon} />
     </Badge>
   );
 };

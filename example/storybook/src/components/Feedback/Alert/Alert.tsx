@@ -10,34 +10,13 @@ import {
   AlertCircleIcon,
   VStack,
   Icon,
-} from '@gluestack-ui/themed';
+} from '@gluestack-ui/custom-design-system';
 
-const AlertBasic = ({ colorMode, ...props }: any) => {
+const AlertBasic = ({ ...props }: any) => {
   return (
     <Alert {...props} gap="$3">
-      <AlertIcon
-        as={InfoIcon}
-        dataSet={{
-          'component-props': JSON.stringify({
-            'instance': true,
-            'instance-name': 'Icon',
-            'as': 'InfoIcon',
-            'size': 'md',
-            'colorMode': colorMode,
-          }),
-        }}
-      />
-      <AlertText
-        dataSet={{
-          'component-props': JSON.stringify({
-            'is-text-style': true,
-            'component-name': 'Text',
-            'size': 'md',
-          }),
-        }}
-      >
-        Selection successfully moved!
-      </AlertText>
+      <AlertIcon as={InfoIcon} />
+      <AlertText>Selection successfully moved!</AlertText>
     </Alert>
   );
 };
