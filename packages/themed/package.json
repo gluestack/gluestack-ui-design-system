@@ -30,14 +30,12 @@
   "license": "ISC",
   "dependencies": {
     "@expo/html-elements": "latest",
-    "@gluestack-ui/themed": "latest",
-    "@gluestack-style/react": "latest"
+    "@gluestack-ui/themed": "latest"
   },
   "devDependencies": {
     "@babel/preset-env": "^7.22.9",
     "@babel/preset-react": "^7.22.5",
     "@babel/preset-typescript": "^7.22.5",
-    "@gluestack-style/react": "^1.0.22",
     "@types/react-native": "^0.72.3",
     "file-loader": "^6.2.0",
     "react": "^18.2.0",
@@ -50,7 +48,7 @@
     "webpack-cli": "^5.1.4"
   },
   "peerDependencies": {
-    "@gluestack-style/react": ">=1.0",
+    "@gluestack-ui/themed": ">=1.0",
     "@types/react-native": ">=0.72",
     "react": ">=16",
     "react-dom": ">=16",

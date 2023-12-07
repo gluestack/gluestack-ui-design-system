@@ -3098,10 +3098,18 @@
     inline-style-prefixer "^6.0.1"
     normalize-css-color "^1.0.2"
 
-"@gluestack-style/react@^1.0.18", "@gluestack-style/react@^1.0.22", "@gluestack-style/react@latest":
+"@gluestack-style/react@^1.0.18", "@gluestack-style/react@^1.0.22":
   version "1.0.22"
   resolved "https://registry.yarnpkg.com/@gluestack-style/react/-/react-1.0.22.tgz#466cabaac6ee0d37de476cf4be0e05c33a73eb2b"
   integrity sha512-TfLXpkZ997zyQKTFwD7HEUhazn7slaD+X4IBbXJBrxGoYuYDAi/rXXmTrLeaVIKR7hCndSOfgAYyqbR7SR88+g==
+  dependencies:
+    inline-style-prefixer "^6.0.1"
+    normalize-css-color "^1.0.2"
+
+"@gluestack-style/react@^1.0.26":
+  version "1.0.26"
+  resolved "https://registry.yarnpkg.com/@gluestack-style/react/-/react-1.0.26.tgz#97437088060505a0c80c4d636cddcb94a31bd1ef"
+  integrity sha512-mw7R6edM1HGQewUxFGUzZOtUvv4worzdiAaNLv1IRFjoirFRcZ+SIumPWG3exEb+WBkHFwH7ZjpQWqY9oHsOcQ==
   dependencies:
     inline-style-prefixer "^6.0.1"
     normalize-css-color "^1.0.2"
@@ -3189,6 +3197,11 @@
     "@react-native-aria/interactions" "^0.2.11"
     "@react-native-aria/utils" "^0.2.10"
     "@react-stately/checkbox" "^3.4.2"
+
+"@gluestack-ui/config@^1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@gluestack-ui/config/-/config-1.0.8.tgz#24cc2f2940be3c069c452d9f92992975f9fce850"
+  integrity sha512-vhlZRB5w6IOTTJDEtpE4d9zblM5A1ycoAzMFw+FoOvZoJYmWyRC+j/zh/h6TKrZZp8FX7S0KEpEAtBGiZp98hw==
 
 "@gluestack-ui/divider@^0.1.3", "@gluestack-ui/divider@^0.1.8":
   version "0.1.8"
@@ -3474,7 +3487,7 @@
     "@gluestack-ui/utils" "^0.1.12"
     "@react-native-aria/focus" "^0.2.9"
 
-"@gluestack-ui/themed@^1.0.20", "@gluestack-ui/themed@latest":
+"@gluestack-ui/themed@^1.0.20", "@gluestack-ui/themed@^1.0.24", "@gluestack-ui/themed@latest":
   version "1.0.24"
   resolved "https://registry.yarnpkg.com/@gluestack-ui/themed/-/themed-1.0.24.tgz#80f3f6c91f791dfbf33869f8e05b3c9053659367"
   integrity sha512-x69ZBqP8RCSWz39imjCk4EP5zvZff6AawZWVpRgzFz5JgC6H+pua4TRizLXfhZIk1Xyi2Fsxb+593AOKPYVwDA==
