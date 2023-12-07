@@ -15,7 +15,6 @@
     "prepare": "husky install",
     "lint": "eslint packages/**/**/src --ext .ts,.tsx --config .eslintrc",
     "eject:gluestack-style": "git clone -b development git@github.com:gluestack/gluestack-style.git gluestack-style && echo Now update babel.config.js",
-    "create-new-package": "node ./scripts/create-new-package.js",
     "storybook": "cd example/storybook && yarn storybook"
   },
   "devDependencies": {
