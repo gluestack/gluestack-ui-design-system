@@ -59,4 +59,4 @@ You can find detailed documentation of `gluestack-ui` for each component, includ
 JavaScript, React, React Native, Styled System
 
 
-Licensed under the MIT License, Copyright © 2023 GeekyAnts. See [LICENSE](https://github.com/gluestack/gluestack-ui/blob/main/LICENSE) for more information.
+Licensed under the MIT License, Copyright © 2023 GeekyAnts. See [LICENSE](./LICENSE) for more information.
