@@ -1,7 +1,7 @@
 import type { ComponentMeta } from '@storybook/react-native';
 import useColorMode from './useColorMode';
 const useColorModeMeta: ComponentMeta<typeof useColorMode> = {
-  title: 'stories/hooks/useColorMode',
+  title: 'hooks/useColorMode',
   component: useColorMode,
 };
 
