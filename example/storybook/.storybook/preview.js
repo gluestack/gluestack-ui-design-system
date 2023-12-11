@@ -15,6 +15,24 @@ export const parameters = {
   docs: {
     // inlineStories: false,
   },
+  options: {
+    storySort: {
+      method: '',
+      order: [
+        'Design Tokens',
+        [
+          'Colors',
+          'Typography',
+          'Space',
+          'Opacity',
+          'Breakpoints',
+          'Borders',
+          'Radii',
+          'Shadows',
+        ],
+      ],
+    },
+  },
 };
 
 import { useDarkMode } from '../src/hooks/useDarkMode';
