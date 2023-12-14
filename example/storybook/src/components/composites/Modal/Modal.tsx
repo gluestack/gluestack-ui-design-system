@@ -108,6 +108,7 @@ const FigmaModalStory = ({ _showModal, ...props }: any) => {
           bg: '#ffffff80',
         },
       }}
+      // @ts-ignore
       _experimentalOverlay={true}
     >
       <ModalContent>

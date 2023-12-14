@@ -39,11 +39,19 @@ const MenuBasic = ({ placement = 'bottom' }: any) => {
           <MenuItemLabel size="sm">Community</MenuItemLabel>
         </MenuItem>
         <MenuItem key="Plugins" textValue="Plugins" gap="$2">
-          <Icon as={PuzzleIcon} size={16} />
+          <Icon
+            as={PuzzleIcon}
+            // @ts-ignore
+            size={16}
+          />
           <MenuItemLabel size="sm">Plugins</MenuItemLabel>
         </MenuItem>
         <MenuItem key="Theme" textValue="Theme" gap="$2">
-          <Icon as={PaintBucket} size={16} />
+          <Icon
+            as={PaintBucket}
+            // @ts-ignore
+            size={16}
+          />
           <MenuItemLabel size="sm">Theme</MenuItemLabel>
         </MenuItem>
         <MenuItem key="Settings" textValue="Settings" gap="$2">
@@ -63,6 +71,7 @@ const FigmaMenuStory = ({ ...props }) => {
   return (
     <Menu
       {...props}
+      // @ts-ignore
       // @ts-ignore
       _experimentalOverlay={true}
       isOpen={true}

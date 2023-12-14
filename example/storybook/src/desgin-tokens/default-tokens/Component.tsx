@@ -55,6 +55,7 @@ const ColorPaletteComponent = () => {
         {Object.keys(sortedColorPalette).map((category: string) => {
           return (
             <Fragment key={category}>
+              {/* @ts-ignore */}
               <Heading mb="$4" size="md">
                 {category}
               </Heading>
@@ -251,6 +252,7 @@ const ShadowsComponent = () => {
   return (
     <GluestackUIProvider config={config}>
       <VStack>
+        {/* @ts-ignore */}
         <Heading size="sm" mb="$4">
           Hard Shadows
         </Heading>
@@ -280,6 +282,7 @@ const ShadowsComponent = () => {
             );
           })}
         </HStack>
+        {/* @ts-ignore */}
         <Heading size="sm" mb="$4">
           Soft Shadows
         </Heading>

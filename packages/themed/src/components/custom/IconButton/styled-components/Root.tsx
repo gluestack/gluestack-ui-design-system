@@ -1,4 +1,3 @@
-// @ts-nocheck
 import { styled } from '@gluestack-ui/themed';
 import { Pressable } from 'react-native';
 

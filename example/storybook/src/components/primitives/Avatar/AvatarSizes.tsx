@@ -11,7 +11,11 @@ const AvatarSizes = () => {
   return (
     <VStack space="md" alignItems="center" h="100%" justifyContent="center">
       {['xs', 'sm', 'md', 'lg', 'xl', '2xl'].map((size, index) => (
-        <Avatar size={size} key={index}>
+        <Avatar
+          // @ts-ignore
+          size={size}
+          key={index}
+        >
           <AvatarFallbackText>John Doe</AvatarFallbackText>
           <AvatarImage
             source={{

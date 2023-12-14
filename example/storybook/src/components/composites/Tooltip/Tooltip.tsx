@@ -57,6 +57,7 @@ const FigmaTooltipStory = ({
       offset={10}
       placement="bottom"
       isOpen={true}
+      // @ts-ignore
       _experimentalOverlay={true}
       // eslint-disable-next-line react/no-unstable-nested-components
       trigger={(triggerProps: any) => {

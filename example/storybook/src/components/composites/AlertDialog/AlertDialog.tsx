@@ -78,6 +78,7 @@ const FigmaAlertDialogStory = ({
           bg: '#ffffff80',
         },
       }}
+      // @ts-ignore
       _experimentalOverlay={true}
       {...props}
     >

@@ -19,10 +19,12 @@ const DividerBasic = ({ ...props }) => {
       alignItems="center"
       justifyContent="center"
     >
+      {/* @ts-ignore */}
       <Heading size="sm" fontWeight="$semibold">
         Firefox
       </Heading>
       <Divider {...props} m="$3" />
+      {/* @ts-ignore */}
       <Heading size="sm" fontWeight="$semibold">
         Chrome
       </Heading>

@@ -46,6 +46,8 @@ const SelectWithVirtualizedList = ({
     <Select isDisabled={isDisabled} isInvalid={isInvalid} {...props}>
       <SelectTrigger>
         <SelectInput placeholder="Select option" />
+        {/* @ts-ignore */}
+        {/* @ts-ignore */}
         <SelectIcon mr="$3">
           <Icon as={ChevronDownIcon} />
         </SelectIcon>

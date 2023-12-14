@@ -58,6 +58,7 @@ const SelectWithFormControl = ({ size, variant, ...props }: any) => {
       >
         <SelectTrigger size={size} variant={variant}>
           <SelectInput placeholder="Select option" />
+          {/* @ts-ignore */}
           <SelectIcon mr="$3">
             <Icon as={ChevronDownIcon} />
           </SelectIcon>
