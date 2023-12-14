@@ -4,28 +4,21 @@ module.exports = function (api) {
   return {
     presets: ['babel-preset-expo'],
     plugins: [
-      process.env.NODE_ENV !== 'production'
-        ? [
-            'module-resolver',
-            {
-              alias: {
-                '@custom-ui/themed': path.join(
-                  __dirname,
-                  '../../packages/themed/src'
-                ),
-                '@custom-ui/config': path.join(
-                  __dirname,
-                  '../../packages/config/src/gluestack-ui.config'
-                ),
-              },
-            },
-          ]
-        : [
-            'babel-plugin-react-docgen-typescript',
-            {
-              exclude: 'node_modules',
-            },
-          ],
+      [
+        'module-resolver',
+        {
+          alias: {
+            '@custom-ui/themed': path.join(
+              __dirname,
+              '../../packages/themed/src'
+            ),
+            '@custom-ui/config': path.join(
+              __dirname,
+              '../../packages/config/src/gluestack-ui.config'
+            ),
+          },
+        },
+      ],
       '@babel/plugin-transform-modules-commonjs',
     ],
   };
