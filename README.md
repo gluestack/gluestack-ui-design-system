@@ -6,16 +6,14 @@
 
 ## Introduction
 
-**gluestack-ui-design-system** is a comprehensive design system built on top of the universal `gluestack-ui` library. It provides a collection of UI components, a Storybook for interactive development and testing, and a flexible configuration setup for seamless customization.
+**gluestack-ui-design-system** is a comprehensive design system built on top of the universal `gluestack-ui` library. It provides a collection of UI components, a Storybook for interactive development and testing, and a flexible configuration setup for seamless customization. It is a starter kit template to create your own Design System.
 
 
 ## Getting Started
 
-* Fork this repository
-* Clone the forked repository
-  ```bash
-  git clone https://github.com/<your-username>/gluestack-ui-design-system.git
-  ```
+* Click on `Use this template` button on the top-right corner.
+* Clicking on `Create a new repository` will create a new repository with this template on your desired organization.
+* Clone that repository from your codebase.
 * Navigate to project directory
   ```bash
   cd gluestack-ui-design-system
