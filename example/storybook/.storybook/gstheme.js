@@ -10,7 +10,7 @@ export default create({
 
   // UI
   appBg: 'white',
-  appContentBg: 'silver',
+  appContentBg: 'white',
   appBorderColor: 'grey',
   appBorderRadius: 4,
 
@@ -32,10 +32,4 @@ export default create({
   inputBorder: 'silver',
   inputTextColor: 'black',
   inputBorderRadius: 4,
-
-  brandTitle: 'My custom storybook',
-  brandUrl: 'https://gluestack.io/',
-  brandImage:
-    'https://gluestack.io/_next/image?url=%2Ficon%2Flogo%2Fui%2Fdark-mode.svg&w=384&q=75',
-  brandTarget: '_self',
 });

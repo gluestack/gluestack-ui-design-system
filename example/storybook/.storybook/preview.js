@@ -2,8 +2,9 @@ import { addParameters } from '@storybook/client-api';
 import { DocsContainer } from '@storybook/addon-docs/blocks';
 import { config } from '@custom-ui/config';
 import { Center, GluestackUIProvider } from '@custom-ui/themed';
+import gstheme from './gstheme';
+import { themes } from '@storybook/theming';
 
-import { useState } from 'react';
 export const parameters = {
   actions: { argTypesRegex: '^on[A-Z].*' },
   controls: {
@@ -11,9 +12,6 @@ export const parameters = {
       color: /(background|color)$/i,
       date: /Date$/,
     },
-  },
-  docs: {
-    // inlineStories: false,
   },
   options: {
     storySort: {
@@ -35,33 +33,10 @@ export const parameters = {
   },
 };
 
-import { useDarkMode } from '../src/hooks/useDarkMode';
-import { Platform } from 'react-native';
-
 export const decorators = [
   (Story) => {
-    let value = false;
-
-    if (Platform.OS === 'web') {
-      // eslint-disable-next-line react-hooks/rules-of-hooks
-      value = useDarkMode();
-    }
-    const [isDark] = useState(false);
-
-    function getColorMode() {
-      //@ts-ignore
-      if (Platform.OS === 'web') {
-        return value ? 'dark' : 'light';
-      } else {
-        return isDark ? 'dark' : 'light';
-      }
-    }
     return (
-      <GluestackUIProvider
-        config={config}
-        // colorMode={getColorMode()}
-        // components={components}
-      >
+      <GluestackUIProvider config={config}>
         <Center>
           <Story />
         </Center>
@@ -72,31 +47,25 @@ export const decorators = [
 
 addParameters({
   docs: {
+    theme: gstheme,
+    inlineStories: false,
     container: ({ children, context }) => {
-      let value = false;
-
-      if (Platform.OS === 'web') {
-        // eslint-disable-next-line react-hooks/rules-of-hooks
-        value = useDarkMode();
-      }
-      const [isDark] = useState(false);
-
-      function getColorMode() {
-        //@ts-ignore
-        if (Platform.OS === 'web') {
-          return value ? 'dark' : 'light';
-        } else {
-          return isDark ? 'dark' : 'light';
-        }
-      }
-
-      return (
-        <DocsContainer context={context}>
-          <GluestackUIProvider config={config} colorMode={getColorMode()}>
-            {children}
-          </GluestackUIProvider>
-        </DocsContainer>
-      );
+      return <DocsContainer context={context}>{children}</DocsContainer>;
+    },
+  },
+  darkMode: {
+    current: 'light',
+    light: {
+      ...themes.light,
+      brandTitle: 'Gluestack Design System',
+      brandUrl: '/',
+      brandImage: '/images/logo-light.png',
+    },
+    dark: {
+      ...themes.dark,
+      brandTitle: 'Gluestack Design System',
+      brandUrl: '/',
+      brandImage: '/images/logo-dark.png',
     },
   },
 });
