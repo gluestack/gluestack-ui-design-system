@@ -30,6 +30,8 @@ export const parameters = {
           'Radii',
           'Shadows',
         ],
+        'components',
+        ['PRIMITIVES', 'COMPOSITES', 'CUSTOM'],
       ],
     },
   },
