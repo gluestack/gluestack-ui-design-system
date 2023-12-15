@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Heading from './Heading';
 
 const HeadingMeta: ComponentMeta<typeof Heading> = {
-  title: 'components/primitives/Heading',
+  title: 'components/PRIMITIVES/Heading',
   component: Heading,
   // metaInfo is required for figma generation
   // @ts-ignore

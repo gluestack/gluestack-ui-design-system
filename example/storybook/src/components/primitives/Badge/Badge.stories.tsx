@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Badge from './Badge';
 
 const BadgeMeta: ComponentMeta<typeof Badge> = {
-  title: 'components/primitives/Badge',
+  title: 'components/PRIMITIVES/Badge',
   component: Badge,
   // metaInfo is required for figma generation
   // @ts-ignore

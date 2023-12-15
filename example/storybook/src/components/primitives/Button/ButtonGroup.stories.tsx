@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import ButtonGroup from './ButtonGroup';
 
 const ButtonGroupMeta: ComponentMeta<any> = {
-  title: 'components/primitives/Button',
+  title: 'components/PRIMITIVES/Button',
   component: ButtonGroup,
   // metaInfo is required for figma generation
   // @ts-ignore

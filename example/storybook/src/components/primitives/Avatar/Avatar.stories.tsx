@@ -4,7 +4,7 @@ import AvatarGroupExample from './AvatarGroup';
 import AvatarSizeExample from './AvatarSizes';
 
 const AvatarMeta: ComponentMeta<typeof Avatar> = {
-  title: 'components/primitives/Avatar',
+  title: 'components/PRIMITIVES/Avatar',
   component: Avatar,
   // metaInfo is required for figma generation
   // @ts-ignore

@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Slider from './Slider';
 
 const SliderMeta: ComponentMeta<typeof Slider> = {
-  title: 'components/primitives/Slider',
+  title: 'components/PRIMITIVES/Slider',
   component: Slider,
   // metaInfo is required for figma generation
   // @ts-ignore

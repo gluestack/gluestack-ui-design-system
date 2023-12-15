@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Spinner from './Spinner';
 
 const SpinnerMeta: ComponentMeta<typeof Spinner> = {
-  title: 'components/primitives/Spinner',
+  title: 'components/PRIMITIVES/Spinner',
   component: Spinner,
   // metaInfo is required for figma generation
   // @ts-ignore

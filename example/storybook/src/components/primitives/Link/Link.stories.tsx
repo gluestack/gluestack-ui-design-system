@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Link from './Link';
 
 const LinkMeta: ComponentMeta<typeof Link> = {
-  title: 'components/primitives/Link',
+  title: 'components/PRIMITIVES/Link',
   component: Link,
   // metaInfo is required for figma generation
   // @ts-ignore

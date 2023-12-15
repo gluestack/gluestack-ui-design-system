@@ -3,7 +3,7 @@ import Text from './Text';
 import TextSizes from './TextSizes';
 
 const TextMeta: ComponentMeta<typeof Text> = {
-  title: 'components/primitives/Text',
+  title: 'components/PRIMITIVES/Text',
   component: Text,
   // metaInfo is required for figma generation
   // @ts-ignore

@@ -6,7 +6,7 @@ import AccordionCustomisedComponent from './AccordionCustomisedComponent';
 import AccordionNested from './AccordionNested';
 
 const AccordionMeta: ComponentMeta<typeof Accordion> = {
-  title: 'components/composites/Accordion',
+  title: 'components/COMPOSITES/Accordion',
   component: Accordion,
   // metaInfo is required for figma generation
   // @ts-ignore

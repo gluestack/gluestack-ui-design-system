@@ -60,7 +60,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Icon from './Icon';
 
 const IconMeta: ComponentMeta<typeof Icon> = {
-  title: 'components/primitives/Icons',
+  title: 'components/PRIMITIVES/Icons',
   component: Icon,
   // metaInfo is required for figma generation
   // @ts-ignore

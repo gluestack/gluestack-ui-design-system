@@ -6,7 +6,7 @@ import ButtonStylesExample from './ButtonStyles';
 import ButtonWithIconsTemp from './ButtonWithIcon';
 
 const ButtonMeta: ComponentMeta<typeof Button> = {
-  title: 'components/primitives/Button',
+  title: 'components/PRIMITIVES/Button',
   component: Button,
   // metaInfo is required for figma generation
   // @ts-ignore

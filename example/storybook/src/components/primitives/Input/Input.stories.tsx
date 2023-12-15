@@ -3,7 +3,7 @@ import Input from './Input';
 import InputIcon from './InputIcon';
 
 const InputMeta: ComponentMeta<typeof Input> = {
-  title: 'components/primitives/Input',
+  title: 'components/PRIMITIVES/Input',
   component: Input,
   // metaInfo is required for figma generation
   // @ts-ignore

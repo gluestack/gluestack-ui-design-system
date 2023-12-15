@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Menu from './Menu';
 
 const MenuMeta: ComponentMeta<typeof Menu> = {
-  title: 'components/composites/Menu',
+  title: 'components/COMPOSITES/Menu',
   component: Menu,
   // metaInfo is required for figma generation
   // @ts-ignore

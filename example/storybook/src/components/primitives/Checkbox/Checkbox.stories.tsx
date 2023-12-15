@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Checkbox from './Checkbox';
 
 const CheckboxMeta: ComponentMeta<typeof Checkbox> = {
-  title: 'components/primitives/Checkbox',
+  title: 'components/PRIMITIVES/Checkbox',
   component: Checkbox,
   // metaInfo is required for figma generation
   // @ts-ignore

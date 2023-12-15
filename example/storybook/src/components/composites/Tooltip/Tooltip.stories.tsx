@@ -2,7 +2,7 @@ import type { ComponentMeta } from '@storybook/react-native';
 import Tooltip from './Tooltip';
 
 const TooltipMeta: ComponentMeta<typeof Tooltip> = {
-  title: 'components/composites/Tooltip',
+  title: 'components/COMPOSITES/Tooltip',
   component: Tooltip,
   // metaInfo is required for figma generation
   // @ts-ignore
