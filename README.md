@@ -48,6 +48,8 @@ The gluestack-ui-design-system allows for easy customization to align with your 
 - Customize design tokens (colors, sizes, media queries) and component themes in `packages/config` by adding, removing, or modifying entries.
 - Adjust component functionality by adding, removing, or modifying features in `packages/themed`.
 
+- To customize the branding with your own design system, navigate to the preview.js file within the .storybook folder and modify the relevant fields according to your branding preferences.
+
 ## Documentation
 
 You can find detailed documentation of `gluestack-ui` for each component, including a list of props, examples, and customization at https://gluestack.io/ui/docs website.
